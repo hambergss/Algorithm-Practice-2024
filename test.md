@@ -2,7 +2,7 @@
 
 ### This function is an algorithm because it is a sequence with iteration, meaning there are loops, specifically for loop in this case, and selection in the code, if, else if, and else statements.
 
-This function takes an input, a random number and out of 100. i starts at 0 and it adds 1 each time it loops the function. 
+This function takes an input, a random number from 0 to 1 and multiplies by 100 to get a whole number i starts at 0 and it adds 1 each time it loops the function. 
 ```javascript
 function rockPaperScissors(input) {
   const random = Math.floor(Math.random() * 100);
