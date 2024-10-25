@@ -26,3 +26,18 @@ let binaryInput = "1101"; //set binaryInput as a binary #
 let decimal = binaryToDec(binaryInput); //let the binaryInput pass through the function and produce the decimal # corresponding to the binary
 console.log("binary: ", binaryInput); 
 console.log("decimal: ", decimal);
+
+
+//whalen's way of doing this
+
+function binaryToDec(binary) {
+  let decimal = 0;
+  for(let i = 0; i < binary.length; i++) {
+    if (binary[binary.length - i - 1] === "1") {
+
+    }
+  } return decimal;
+}
+
+let binary = "1101";
+console.log("decimal: ", decimal)
